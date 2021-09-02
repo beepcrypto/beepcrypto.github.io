@@ -4,5 +4,5 @@ layout: default
 
 Hi，This is Beep Academy.
 
-- [Videos](book)
+- [Videos](episodes)
 
