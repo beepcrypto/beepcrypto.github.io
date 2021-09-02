@@ -28,10 +28,51 @@ title: 如何用 Phaser 开发一个简单的网页游戏
 
 拷贝这一行到 html 文件的 head 标签之内。
 
+```
+serve .
+```
+
+然后启动本地服务器，在用 Chrome 浏览器打开本地链接，在开发者工具的 console 中输入 `Phaser` 回车，可以看到 Phaser 已经加载成功了。
+
+下面对 Phaser 进行一下基本配置。在 html 页面的 body 标签下添加 script 标签，我们的主体代码会写到这里面。
+
+```js
+var config = {
+  type: Phaser.AUTO,
+  width: 800,
+  height: 600,
+  scene: {
+    preload: preload,
+    create: create,
+    update: update
+  }
+};
+```
+
+
+属性 type 可以是 Phaser.CANVAS，或者 Phaser.WEBGL，或者 Phaser.AUTO。这是你要给你的游戏使用的渲染环境。推荐值是 Phaser.AUTO ，它会自动尝试使用 WebGL，如果浏览器或设备不支持，它将回退为 Canvas 。然后画布的大小设置为800x600像素。然后给场景注册几个生命周期函数。
+
+```js
+var game = new Phaser.Game(config);
+
+function preload()
+{
+}
+
+function create()
+{
+}
+
+function update()
+{
+}
+```
+
+接下来在初始化 Phaser 的时候加载这个配置，然后把这几个生命周期函数的空壳子先放到这里。稍后我们会逐一介绍他们的作用。
 
 
 
-属性type可以是 Phaser.CANVAS，或者 Phaser.WEBGL，或者 Phaser.AUTO。这是你要给你的游戏使用的渲染环境（context）。推荐值是Phaser.AUTO，它将自动尝试使用WebGL，如果浏览器或设备不支持，它将回退为Canvas
+
 
 可以从 https://www.gameart2d.com/free-graveyard-platformer-tileset.html 下载一些游戏中需要的图片。
 
