@@ -1,14 +1,13 @@
 ---
 layout: episode
-title: 什么是 NFT ?
+title: What Is NFT? 什么是 NFT ?
 ---
 
 NFT is the latest driving force for the popularity of blockchain in 2021. After ICO and Smart contract a few years ago, my  expectation was that decentralized identity would be the next thing. Yet I was somewhat wrong, NFT is the thing that caught real public attention now. That's why we need to talk about it today.
 
 今年是2021年，NFT 是最新的让区块链流行起来的驱动力。在几年前的 ICO 和智能合约热潮之后，我自己曾经觉得下一波的热潮应该来自去中心化身份，但是显然我没有想到 NFT 才是这一波真正进入大众视野的概念，所以今天咱们就一起好好学习一下 NFT 。
 
-## What is NFT?
-## 什么是 NFT ？
+## What is NFT? 什么是 NFT ？
 
 NFT is short for Non-fungible Token. Non-fungible means an NFT is un-replaceable is unique in this world. For example, a painting. While, on the other hand, there are lots of things that are fungible. Like, a shirt as a commodity, if one is broken, you pay the price, you get another one.
 
@@ -18,8 +17,7 @@ An NFT is a unit of data stored on a digital ledger, called a blockchain, which 
 
 一个 NFT 就是一段存储在区块链上的数据数据，可以进行交易，买入或者卖出。Token 是一个密码学的术语了，造作 NFT 之前，某些区块链上就有了代币了，也都叫 token ，只不过它们一般都是可替换的。关于技术细节我们不用太深究(如果特别像知道到底一个 NFT 底层长成啥样，可以参考以太坊的 ERC721标准)，只需要知道 NFT 是发行在区块链上的，所以我们把它也叫 token 。
 
-## Why A NFT Can be So Expensive?
-## 为何一个 NFT 可以值那么多钱？
+## Why A NFT Can be So Expensive? 为何值钱？
 
 You may wonder if an NFT is just a piece of data, which can be easily copied, why it could be so expensive.
 
@@ -33,8 +31,7 @@ If you are still not excited, and saying OK it's sth beautiful, it's tradable, s
 
 但是很多人还是觉得没什么，艺术作品从来就有，不用 NFT ，用其他方式不是一样可以交易吗？其实在往下就不是那么好解释了，因为需要让大家对虚拟的世界，现在叫 Metaverse ，发生兴趣。要理解一个大的范式转换，往往需要比较大的知识储备的。如果你不明白为啥会有人花钱买虚拟的土地，然后建设虚拟的房子，那么你就很难理解 NFT 在虚拟世界中扮演一个多么重要的角色，在未来人类社会会扮演多么重要的一个角色。如果虚拟世界现在还让你激动不起来，那请期待我后续的专门讨论这个话题的视频。
 
-## Examples
-## 实际案例
+## Examples 实际案例
 
 Now, it's getting interesting, let's check some real world usecases of NFT.
 
@@ -65,8 +62,7 @@ For more NFTs ，goto https://opensea.io/ , which is considered the largest NFT 
 
 如果想看更多的 NFT ，可以去 opensea ，这是目前最大的 NFT 交易市场了。
 
-## End
-## 总结
+## End 总结
 
 So, that's it. To put it simply, A NFT is a unique token released on a blockchain. It represents a piece of data that is tradable. Peter, here, see you in the next video. Bye.
 
